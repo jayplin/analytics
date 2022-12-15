@@ -26,6 +26,7 @@ export default function StickyHeader({
     };
 
     if (enabled) {
+      //asfd
       checkPosition();
       window.addEventListener('scroll', checkPosition);
     }
